@@ -3219,7 +3219,7 @@ export const SONGS = [
   },
   {
     title: "六兆年と一夜物語",
-    artist: "kemu feat. 初音ミク",
+    artist: "kemu feat. IA",
     genre: "ボカロ",
     era: "2010年代",
     diffMale: 8.7,
