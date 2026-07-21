@@ -625,7 +625,7 @@ export const SONGS = [
     comment: "Adoならではの激しい感情表現と広い音域が求められる屈指の難曲。",
   },
   {
-    title: "花水木",
+    title: "ハナミズキ",
     artist: "一青窈",
     genre: "J-POP",
     era: "2000年代",
