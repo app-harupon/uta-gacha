@@ -3,7 +3,7 @@ import { SONGS, GENRES, ERAS, LEVELS } from './data/songs'
 import SongCard from './components/SongCard'
 import './App.css'
 
-const MAX_CANDIDATES = 4
+const MAX_CANDIDATES = 5
 
 function toggleInList(list, value) {
   return list.includes(value) ? list.filter((v) => v !== value) : [...list, value]
