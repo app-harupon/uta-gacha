@@ -1,0 +1,287 @@
+.app-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.app-header h1 {
+  font-size: 32px;
+  letter-spacing: 0.05em;
+}
+
+.app-subtitle {
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panel h2 {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.toggle-group {
+  display: flex;
+  gap: 8px;
+}
+
+.toggle-button,
+.chip,
+.level-button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.toggle-button {
+  flex: 1;
+}
+
+.toggle-button.active,
+.chip.active,
+.level-button.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.level-group {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.level-button {
+  text-align: center;
+}
+
+.draw-button {
+  display: block;
+  width: 100%;
+  background: var(--accent);
+  color: #150f26;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: opacity 0.15s ease;
+}
+
+.draw-button:hover {
+  opacity: 0.9;
+}
+
+.empty-message {
+  color: var(--text-dim);
+  text-align: center;
+  padding: 24px 0;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.song-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.song-card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.song-card-title-block .song-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.song-card-title-block .song-artist {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.song-card-title-block .song-meta {
+  color: var(--text-dim);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.song-score-block {
+  text-align: right;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.led-score {
+  font-family: 'DotGothic16', monospace;
+  font-size: 28px;
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent-dim);
+  letter-spacing: 0.05em;
+}
+
+.led-score-max {
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+.diff-tag {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-dim);
+}
+
+.song-card-detail {
+  padding: 0 16px 16px;
+  border-top: 1px solid var(--border);
+}
+
+.breakdown {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.breakdown-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breakdown-label {
+  width: 56px;
+  font-size: 12px;
+  color: var(--text-dim);
+  flex-shrink: 0;
+}
+
+.breakdown-bar-track {
+  flex: 1;
+  height: 6px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.breakdown-bar-fill {
+  height: 100%;
+  background: var(--accent);
+}
+
+.breakdown-bar-fill-overflow {
+  background: #ffd23f;
+  box-shadow: 0 0 6px rgba(255, 210, 63, 0.7);
+}
+
+.breakdown-value {
+  width: 32px;
+  font-size: 12px;
+  color: var(--text-dim);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.breakdown-value-overflow {
+  color: #ffd23f;
+  font-weight: 700;
+}
+
+.song-comment {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+.prev-record {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.record-form {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.record-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.record-form input,
+.record-form textarea {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.record-form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.save-button {
+  align-self: flex-start;
+  background: var(--accent);
+  color: #150f26;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
