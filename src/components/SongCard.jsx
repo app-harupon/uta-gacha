@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { difficultyTag } from '../utils/difficulty'
+import { difficultyTag, scoreToLevel } from '../utils/difficulty'
 import { loadRecord, saveRecord } from '../utils/storage'
 
 const AXES = [
@@ -16,7 +16,8 @@ export default function SongCard({ song, genderKey }) {
   const [memoInput, setMemoInput] = useState(record?.memo ?? '')
 
   const score = genderKey === 'male' ? song.diffMale : song.diffFemale
-  const tag = difficultyTag(score)
+  const level = scoreToLevel(score)
+  const tag = difficultyTag(level)
 
   const axisValue = (key) => {
     if (key === 'pitch') {
@@ -43,7 +44,7 @@ export default function SongCard({ song, genderKey }) {
         </div>
         <div className="song-score-block">
           <div className="led-score">
-            {score.toFixed(1)}
+            {level}
             <span className="led-score-max">/10</span>
           </div>
           <div className={`diff-tag diff-tag-${tag}`}>{tag}</div>

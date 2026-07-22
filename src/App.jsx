@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { SONGS, GENRES, ERAS, LEVELS } from './data/songs'
+import { scoreToLevel } from './utils/difficulty'
 import SongCard from './components/SongCard'
 import './App.css'
 
@@ -33,7 +34,7 @@ export default function App() {
       if (selectedEras.length > 0 && !selectedEras.includes(song.era)) return false
       if (selectedLevels.length > 0) {
         const score = genderKey === 'male' ? song.diffMale : song.diffFemale
-        if (!selectedLevels.includes(Math.round(score))) return false
+        if (!selectedLevels.includes(scoreToLevel(score))) return false
       }
       return true
     })

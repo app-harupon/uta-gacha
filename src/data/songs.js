@@ -2869,7 +2869,7 @@ export const SONGS = [
   },
   {
     title: "ロウワー",
-    artist: "ずっと真夜中でいいのに。",
+    artist: "ぬゆり",
     genre: "J-POP",
     era: "2020年代",
     diffMale: 8.8,
@@ -2879,7 +2879,7 @@ export const SONGS = [
   },
   {
     title: "夜明けと蛍",
-    artist: "ヨルシカ",
+    artist: "n-buna",
     genre: "J-POP",
     era: "2020年代",
     diffMale: 7.7,
@@ -2909,7 +2909,7 @@ export const SONGS = [
   },
   {
     title: "心臓と絡繰",
-    artist: "Eve",
+    artist: "花譜",
     genre: "J-POP",
     era: "2010年代",
     diffMale: 7.8,
@@ -2919,7 +2919,7 @@ export const SONGS = [
   },
   {
     title: "大正浪漫",
-    artist: "まふまふ",
+    artist: "YOASOBI",
     genre: "J-POP",
     era: "2010年代",
     diffMale: 8.6,
@@ -2949,7 +2949,7 @@ export const SONGS = [
   },
   {
     title: "明日への賛歌",
-    artist: "Kalafina",
+    artist: "アリス",
     genre: "J-POP",
     era: "2010年代",
     diffMale: 7.8,
@@ -2959,7 +2959,7 @@ export const SONGS = [
   },
   {
     title: "夜もすがら君想ふ",
-    artist: "ヨルシカ",
+    artist: "Leo/need",
     genre: "J-POP",
     era: "2010年代",
     diffMale: 7.5,
@@ -3049,7 +3049,7 @@ export const SONGS = [
   },
   {
     title: "その血の運命",
-    artist: "Coda",
+    artist: "富永TOMMY弘明",
     genre: "アニメ",
     era: "2010年代",
     diffMale: 8.2,
@@ -3089,7 +3089,7 @@ export const SONGS = [
   },
   {
     title: "千の夜をこえて",
-    artist: "GARNiDELiA",
+    artist: "Aqua Timez",
     genre: "アニメ",
     era: "2010年代",
     diffMale: 8.5,
@@ -3119,7 +3119,7 @@ export const SONGS = [
   },
   {
     title: "蝶々結び",
-    artist: "Kalafina",
+    artist: "Aimer",
     genre: "アニメ",
     era: "2010年代",
     diffMale: 7.5,
