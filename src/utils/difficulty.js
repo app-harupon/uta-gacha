@@ -1,19 +1,22 @@
 import { SONGS } from '../data/songs'
 
-const allScores = SONGS.flatMap((s) => [s.diffMale, s.diffFemale])
-const SCORE_MAX = Math.max(...allScores)
+const allScores = SONGS.flatMap((s) => [s.diffMale, s.diffFemale]).sort((a, b) => a - b)
 
-// レベル1に該当する曲が(男性/女性キーどちらでも)最低8曲は確保できるよう、
-// レベル1の上限スコアを引き上げてある。ここを直接調整すれば、レベル1に入る曲数を増減できる。
-const LEVEL_1_CUTOFF = 3.5
+// 全曲のスコア(男女どちらも合わせた分布)を10等分(パーセンタイル)し、
+// レベル1〜9それぞれの「この値以下ならこのレベル」という上限スコアを動的に算出する。
+// 単純な絶対値ベースの区切りだと中間の難易度帯に曲が偏ってしまうため、
+// 順位ベースで各レベルにほぼ均等(約1/10ずつ)に曲が振り分けられるようにしている。
+// 曲を追加/削除すると自動的に再計算されるので、手動でしきい値を調整する必要はない。
+const LEVEL_BOUNDARIES = Array.from({ length: 9 }, (_, i) => {
+  const idx = Math.floor((allScores.length * (i + 1)) / 10)
+  return allScores[idx]
+})
 
-// 生スコア(0〜10、0.1刻み)をレベル1〜10へ再スケールする。
-// スコア <= LEVEL_1_CUTOFF は一律レベル1。それ以外は、LEVEL_1_CUTOFF〜最大値の範囲を
-// レベル2〜10へ線形に再スケールする(単純な四捨五入だとレベル1・10がほぼ空になってしまうため)。
 export function scoreToLevel(score) {
-  if (score <= LEVEL_1_CUTOFF) return 1
-  const raw = 2 + ((score - LEVEL_1_CUTOFF) / (SCORE_MAX - LEVEL_1_CUTOFF)) * 8
-  return Math.max(2, Math.min(10, Math.round(raw)))
+  for (let i = 0; i < LEVEL_BOUNDARIES.length; i++) {
+    if (score <= LEVEL_BOUNDARIES[i]) return i + 1
+  }
+  return 10
 }
 
 export function difficultyTag(level) {
