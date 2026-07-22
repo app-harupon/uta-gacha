@@ -30,7 +30,7 @@ export default function App() {
 
   const handleDraw = () => {
     const filtered = SONGS.filter((song) => {
-      if (selectedGenres.length > 0 && !selectedGenres.includes(song.genre)) return false
+      if (selectedGenres.length > 0 && !song.genres.some((g) => selectedGenres.includes(g))) return false
       if (selectedEras.length > 0 && !selectedEras.includes(song.era)) return false
       if (selectedLevels.length > 0) {
         const score = genderKey === 'male' ? song.diffMale : song.diffFemale

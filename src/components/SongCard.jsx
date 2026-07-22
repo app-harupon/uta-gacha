@@ -39,7 +39,7 @@ export default function SongCard({ song, genderKey }) {
           <div className="song-title">{song.title}</div>
           <div className="song-artist">{song.artist}</div>
           <div className="song-meta">
-            {song.genre} / {song.era}
+            {song.genres.join('・')} / {song.era}
           </div>
         </div>
         <div className="song-score-block">

@@ -37,7 +37,7 @@ export const SONGS = [
   {
     title: "YELL",
     artist: "いきものがかり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.5,
     diffFemale: 4.9,
@@ -47,7 +47,7 @@ export const SONGS = [
   {
     title: "Lemon",
     artist: "米津玄師",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.3,
     diffFemale: 7.8,
@@ -57,7 +57,7 @@ export const SONGS = [
   {
     title: "紅蓮華",
     artist: "LiSA",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2010年代",
     diffMale: 8.3,
     diffFemale: 7.2,
@@ -67,7 +67,7 @@ export const SONGS = [
   {
     title: "残酷な天使のテーゼ",
     artist: "高橋洋子",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "1990年代",
     diffMale: 6.6,
     diffFemale: 5.6,
@@ -77,7 +77,7 @@ export const SONGS = [
   {
     title: "クリスマスイブ",
     artist: "山下達郎",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5.1,
     diffFemale: 4.3,
@@ -87,7 +87,7 @@ export const SONGS = [
   {
     title: "マリーゴールド",
     artist: "あいみょん",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.1,
     diffFemale: 3.9,
@@ -97,7 +97,7 @@ export const SONGS = [
   {
     title: "打上花火",
     artist: "DAOKO×米津玄師",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.4,
     diffFemale: 5.8,
@@ -107,7 +107,7 @@ export const SONGS = [
   {
     title: "カメレオン",
     artist: "King Gnu",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 7.2,
     diffFemale: 8,
@@ -117,7 +117,7 @@ export const SONGS = [
   {
     title: "前前前世",
     artist: "RADWIMPS",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 6.6,
     diffFemale: 6.2,
@@ -127,7 +127,7 @@ export const SONGS = [
   {
     title: "ロキ",
     artist: "みきとP feat.鏡音リン",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 7.4,
     diffFemale: 7.2,
@@ -137,7 +137,7 @@ export const SONGS = [
   {
     title: "千本桜",
     artist: "初音ミク(黒うさP)",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.1,
     diffFemale: 6.7,
@@ -147,7 +147,7 @@ export const SONGS = [
   {
     title: "マトリョシカ",
     artist: "初音ミク・GUMI(ハチ)",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 9.3,
     diffFemale: 9.3,
@@ -157,7 +157,7 @@ export const SONGS = [
   {
     title: "Shape of You",
     artist: "Ed Sheeran",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 4.8,
     diffFemale: 5.2,
@@ -167,7 +167,7 @@ export const SONGS = [
   {
     title: "Rolling in the Deep",
     artist: "Adele",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7,
     diffFemale: 6.6,
@@ -177,7 +177,7 @@ export const SONGS = [
   {
     title: "Bohemian Rhapsody",
     artist: "Queen",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1970年代",
     diffMale: 9.9,
     diffFemale: 8.7,
@@ -187,7 +187,7 @@ export const SONGS = [
   {
     title: "true colors",
     artist: "Cyndi Lauper",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 3.1,
     diffFemale: 2.8,
@@ -197,7 +197,7 @@ export const SONGS = [
   {
     title: "First Love",
     artist: "宇多田ヒカル",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.7,
     diffFemale: 4.9,
@@ -207,7 +207,7 @@ export const SONGS = [
   {
     title: "アイドル",
     artist: "YOASOBI",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 8.2,
     diffFemale: 7.7,
@@ -217,7 +217,7 @@ export const SONGS = [
   {
     title: "赤いスイートピー",
     artist: "松田聖子",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 4,
     diffFemale: 3.6,
@@ -227,7 +227,7 @@ export const SONGS = [
   {
     title: "少女A",
     artist: "中森明菜",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5.4,
     diffFemale: 5.8,
@@ -237,7 +237,7 @@ export const SONGS = [
   {
     title: "タッチ",
     artist: "岩崎良美",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "1980年代",
     diffMale: 5.8,
     diffFemale: 5,
@@ -247,7 +247,7 @@ export const SONGS = [
   {
     title: "TRAIN-TRAIN",
     artist: "THE BLUE HEARTS",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 6.2,
     diffFemale: 5.8,
@@ -257,7 +257,7 @@ export const SONGS = [
   {
     title: "We Are The World",
     artist: "USA for Africa",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 5.1,
     diffFemale: 4.7,
@@ -267,7 +267,7 @@ export const SONGS = [
   {
     title: "負けないで",
     artist: "ZARD",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.2,
     diffFemale: 5.4,
@@ -277,7 +277,7 @@ export const SONGS = [
   {
     title: "世界が終るまでは…",
     artist: "WANDS",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.7,
     diffFemale: 6.1,
@@ -287,7 +287,7 @@ export const SONGS = [
   {
     title: "おどるポンポコリン",
     artist: "B.B.クィーンズ",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "1990年代",
     diffMale: 2.8,
     diffFemale: 2.6,
@@ -297,7 +297,7 @@ export const SONGS = [
   {
     title: "少年時代",
     artist: "井上陽水",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.8,
     diffFemale: 5.2,
@@ -307,7 +307,7 @@ export const SONGS = [
   {
     title: "真夏の果実",
     artist: "サザンオールスターズ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.2,
     diffFemale: 5.6,
@@ -317,7 +317,7 @@ export const SONGS = [
   {
     title: "I Want It That Way",
     artist: "Backstreet Boys",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 4.6,
     diffFemale: 5,
@@ -327,7 +327,7 @@ export const SONGS = [
   {
     title: "サウダージ",
     artist: "ポルノグラフィティ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.7,
     diffFemale: 6.1,
@@ -337,7 +337,7 @@ export const SONGS = [
   {
     title: "天体観測",
     artist: "BUMP OF CHICKEN",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6.3,
     diffFemale: 5.9,
@@ -347,7 +347,7 @@ export const SONGS = [
   {
     title: "ライオン",
     artist: "May'n・中島愛",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 7.3,
     diffFemale: 7.2,
@@ -357,7 +357,7 @@ export const SONGS = [
   {
     title: "Pretender",
     artist: "Official髭男dism",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 7.6,
     diffFemale: 6.5,
@@ -367,7 +367,7 @@ export const SONGS = [
   {
     title: "Roar",
     artist: "Katy Perry",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 5.2,
     diffFemale: 4.8,
@@ -377,7 +377,7 @@ export const SONGS = [
   {
     title: "Try Everything",
     artist: "Shakira",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 4.2,
     diffFemale: 4,
@@ -387,7 +387,7 @@ export const SONGS = [
   {
     title: "We Are Never Ever Getting Back Together",
     artist: "Taylor Swift",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 4.2,
     diffFemale: 4,
@@ -397,7 +397,7 @@ export const SONGS = [
   {
     title: "A Sky Full of Stars",
     artist: "Coldplay",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 5.9,
     diffFemale: 5.5,
@@ -407,7 +407,7 @@ export const SONGS = [
   {
     title: "シャルル",
     artist: "バルーン",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 6.4,
     diffFemale: 6,
@@ -417,7 +417,7 @@ export const SONGS = [
   {
     title: "怪獣の花唄",
     artist: "Vaundy",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 7.3,
     diffFemale: 7,
@@ -427,7 +427,7 @@ export const SONGS = [
   {
     title: "ケセラセラ",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 7.3,
     diffFemale: 7,
@@ -437,7 +437,7 @@ export const SONGS = [
   {
     title: "KICK BACK",
     artist: "米津玄師",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 8.7,
     diffFemale: 8.3,
@@ -447,7 +447,7 @@ export const SONGS = [
   {
     title: "KING",
     artist: "Kanaria",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 9.5,
     diffFemale: 9.5,
@@ -457,7 +457,7 @@ export const SONGS = [
   {
     title: "メルト",
     artist: "ryo(supercell)",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2000年代",
     diffMale: 5.2,
     diffFemale: 4.6,
@@ -467,7 +467,7 @@ export const SONGS = [
   {
     title: "ワールドイズマイン",
     artist: "ryo(supercell)",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2000年代",
     diffMale: 6,
     diffFemale: 5.6,
@@ -477,7 +477,7 @@ export const SONGS = [
   {
     title: "結ンデ開イテ羅刹ト骸",
     artist: "ハチ",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.5,
     diffFemale: 8.5,
@@ -487,7 +487,7 @@ export const SONGS = [
   {
     title: "ドーナツホール",
     artist: "ハチ",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 6.8,
     diffFemale: 6.4,
@@ -497,7 +497,7 @@ export const SONGS = [
   {
     title: "砂の惑星",
     artist: "ハチ(米津玄師)",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.3,
     diffFemale: 6.9,
@@ -507,7 +507,7 @@ export const SONGS = [
   {
     title: "ヴァンパイア",
     artist: "DECO*27 feat. 初音ミク",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8,
     diffFemale: 8,
@@ -517,7 +517,7 @@ export const SONGS = [
   {
     title: "ロビンソン",
     artist: "スピッツ",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 5.1,
     diffFemale: 4.7,
@@ -527,7 +527,7 @@ export const SONGS = [
   {
     title: "HOWEVER",
     artist: "GLAY",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 6.6,
     diffFemale: 5.8,
@@ -537,7 +537,7 @@ export const SONGS = [
   {
     title: "粉雪",
     artist: "レミオロメン",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6.1,
     diffFemale: 5.1,
@@ -547,7 +547,7 @@ export const SONGS = [
   {
     title: "ミックスナッツ",
     artist: "Official髭男dism",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 7.3,
     diffFemale: 6.5,
@@ -557,7 +557,7 @@ export const SONGS = [
   {
     title: "世界に一つだけの花",
     artist: "SMAP",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 2.1,
     diffFemale: 2.5,
@@ -567,7 +567,7 @@ export const SONGS = [
   {
     title: "キセキ",
     artist: "GReeeeN",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.5,
     diffFemale: 5.9,
@@ -577,7 +577,7 @@ export const SONGS = [
   {
     title: "君をのせて",
     artist: "井上あずみ",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "1980年代",
     diffMale: 3.8,
     diffFemale: 3.3,
@@ -587,7 +587,7 @@ export const SONGS = [
   {
     title: "いつも何度でも",
     artist: "木村弓",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 4.7,
     diffFemale: 4.5,
@@ -597,7 +597,7 @@ export const SONGS = [
   {
     title: "ウィーアー!",
     artist: "きただにひろし",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "1990年代",
     diffMale: 6.3,
     diffFemale: 5.9,
@@ -607,7 +607,7 @@ export const SONGS = [
   {
     title: "限界突破×サバイバー",
     artist: "氷川きよし",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 7.6,
     diffFemale: 7.3,
@@ -617,7 +617,7 @@ export const SONGS = [
   {
     title: "唱",
     artist: "Ado",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 8.7,
     diffFemale: 8.7,
@@ -627,7 +627,7 @@ export const SONGS = [
   {
     title: "ハナミズキ",
     artist: "一青窈",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 4.6,
     diffFemale: 4.2,
@@ -637,7 +637,7 @@ export const SONGS = [
   {
     title: "Beautiful",
     artist: "Superfly",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.4,
     diffFemale: 6.9,
@@ -647,7 +647,7 @@ export const SONGS = [
   {
     title: "愛を込めて花束を",
     artist: "Superfly",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6,
     diffFemale: 6.9,
@@ -657,7 +657,7 @@ export const SONGS = [
   {
     title: "カブトムシ",
     artist: "aiko",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4,
     diffFemale: 3.8,
@@ -667,7 +667,7 @@ export const SONGS = [
   {
     title: "パプリカ",
     artist: "Foorin",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 3.1,
     diffFemale: 3,
@@ -677,7 +677,7 @@ export const SONGS = [
   {
     title: "RPG",
     artist: "SEKAI NO OWARI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.5,
     diffFemale: 5.9,
@@ -687,7 +687,7 @@ export const SONGS = [
   {
     title: "366日",
     artist: "HY",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.1,
     diffFemale: 4.7,
@@ -697,7 +697,7 @@ export const SONGS = [
   {
     title: "高嶺の花子さん",
     artist: "back number",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.5,
     diffFemale: 5.9,
@@ -707,7 +707,7 @@ export const SONGS = [
   {
     title: "DANZEN!ふたりはプリキュア",
     artist: "五條真由美",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 4.8,
     diffFemale: 4.2,
@@ -717,7 +717,7 @@ export const SONGS = [
   {
     title: "only my railgun",
     artist: "fripSide",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 7.2,
     diffFemale: 6.8,
@@ -727,7 +727,7 @@ export const SONGS = [
   {
     title: "again",
     artist: "YUI",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 5.5,
     diffFemale: 5.3,
@@ -737,7 +737,7 @@ export const SONGS = [
   {
     title: "crossing field",
     artist: "LiSA",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2010年代",
     diffMale: 6.6,
     diffFemale: 6.2,
@@ -747,7 +747,7 @@ export const SONGS = [
   {
     title: "シュガーソングとビターステップ",
     artist: "UNISON SQUARE GARDEN",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 7.8,
     diffFemale: 7.8,
@@ -757,7 +757,7 @@ export const SONGS = [
   {
     title: "Silhouette",
     artist: "KANA-BOON",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 6.3,
     diffFemale: 5.9,
@@ -767,7 +767,7 @@ export const SONGS = [
   {
     title: "炎",
     artist: "LiSA",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 8,
     diffFemale: 7.7,
@@ -777,7 +777,7 @@ export const SONGS = [
   {
     title: "白日",
     artist: "King Gnu",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 7.5,
     diffFemale: 7.5,
@@ -787,7 +787,7 @@ export const SONGS = [
   {
     title: "なんでもないや",
     artist: "RADWIMPS",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 5.1,
     diffFemale: 4.9,
@@ -797,7 +797,7 @@ export const SONGS = [
   {
     title: "HANABI",
     artist: "Mr.Children",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6,
     diffFemale: 6.4,
@@ -807,7 +807,7 @@ export const SONGS = [
   {
     title: "innocent world",
     artist: "Mr.Children",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 5.5,
     diffFemale: 5.9,
@@ -817,7 +817,7 @@ export const SONGS = [
   {
     title: "若者のすべて",
     artist: "フジファブリック",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6.1,
     diffFemale: 5.7,
@@ -827,7 +827,7 @@ export const SONGS = [
   {
     title: "ハルジオン",
     artist: "YOASOBI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.5,
     diffFemale: 6.1,
@@ -837,7 +837,7 @@ export const SONGS = [
   {
     title: "とんぼ",
     artist: "長渕剛",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 5.9,
     diffFemale: 6.8,
@@ -847,7 +847,7 @@ export const SONGS = [
   {
     title: "裏表ラバーズ",
     artist: "wowaka",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2000年代",
     diffMale: 8.9,
     diffFemale: 8.9,
@@ -857,7 +857,7 @@ export const SONGS = [
   {
     title: "ワールズエンド・ダンスホール",
     artist: "wowaka",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8,
     diffFemale: 8,
@@ -867,7 +867,7 @@ export const SONGS = [
   {
     title: "惑星ループ",
     artist: "ナユタン星人",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 6.3,
     diffFemale: 6.3,
@@ -877,7 +877,7 @@ export const SONGS = [
   {
     title: "太陽系デスコ",
     artist: "ナユタン星人",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 6.3,
     diffFemale: 6.3,
@@ -887,7 +887,7 @@ export const SONGS = [
   {
     title: "あいたい星人",
     artist: "DECO*27",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 5.7,
     diffFemale: 5.7,
@@ -897,7 +897,7 @@ export const SONGS = [
   {
     title: "ゾンビ",
     artist: "DECO*27",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.3,
     diffFemale: 7.3,
@@ -907,7 +907,7 @@ export const SONGS = [
   {
     title: "からくりピエロ",
     artist: "40mP",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 6.3,
     diffFemale: 5.9,
@@ -917,7 +917,7 @@ export const SONGS = [
   {
     title: "ODDS&ENDS",
     artist: "ryo(supercell)",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 6.7,
     diffFemale: 6.3,
@@ -927,7 +927,7 @@ export const SONGS = [
   {
     title: "Don't Stop Believin'",
     artist: "Journey",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7,
     diffFemale: 6.7,
@@ -937,7 +937,7 @@ export const SONGS = [
   {
     title: "Livin' on a Prayer",
     artist: "Bon Jovi",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 6.7,
     diffFemale: 6.3,
@@ -947,7 +947,7 @@ export const SONGS = [
   {
     title: "Sweet Child O' Mine",
     artist: "Guns N' Roses",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7.2,
     diffFemale: 7.8,
@@ -957,7 +957,7 @@ export const SONGS = [
   {
     title: "It's My Life",
     artist: "Bon Jovi",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2000年代",
     diffMale: 6.1,
     diffFemale: 5.7,
@@ -967,7 +967,7 @@ export const SONGS = [
   {
     title: "Counting Stars",
     artist: "OneRepublic",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 5.1,
     diffFemale: 4.9,
@@ -977,7 +977,7 @@ export const SONGS = [
   {
     title: "Perfect",
     artist: "Ed Sheeran",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 4.3,
     diffFemale: 4.1,
@@ -987,7 +987,7 @@ export const SONGS = [
   {
     title: "Uptown Funk",
     artist: "Bruno Mars",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 6.3,
     diffFemale: 5.9,
@@ -997,7 +997,7 @@ export const SONGS = [
   {
     title: "なんてったってアイドル",
     artist: "小泉今日子",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 2.8,
     diffFemale: 3.4,
@@ -1007,7 +1007,7 @@ export const SONGS = [
   {
     title: "セーラー服を脱がさないで",
     artist: "おニャン子クラブ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 3,
     diffFemale: 2.9,
@@ -1017,7 +1017,7 @@ export const SONGS = [
   {
     title: "ギザギザハートの子守唄",
     artist: "チェッカーズ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 6,
     diffFemale: 6.8,
@@ -1027,7 +1027,7 @@ export const SONGS = [
   {
     title: "待つわ",
     artist: "あみん",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 3.5,
     diffFemale: 3.5,
@@ -1037,7 +1037,7 @@ export const SONGS = [
   {
     title: "スローモーション",
     artist: "中森明菜",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5,
     diffFemale: 4.6,
@@ -1047,7 +1047,7 @@ export const SONGS = [
   {
     title: "天使のウィンク",
     artist: "中森明菜",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 4.7,
     diffFemale: 4.3,
@@ -1057,7 +1057,7 @@ export const SONGS = [
   {
     title: "ワインレッドの心",
     artist: "安全地帯",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5.4,
     diffFemale: 6.2,
@@ -1067,7 +1067,7 @@ export const SONGS = [
   {
     title: "恋におちて-Fall in love-",
     artist: "小林明子",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 4.6,
     diffFemale: 5.2,
@@ -1077,7 +1077,7 @@ export const SONGS = [
   {
     title: "め組のひと",
     artist: "ラッツ&スター",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5.2,
     diffFemale: 4.8,
@@ -1087,7 +1087,7 @@ export const SONGS = [
   {
     title: "想い出がいっぱい",
     artist: "H2O",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5.8,
     diffFemale: 6.2,
@@ -1097,7 +1097,7 @@ export const SONGS = [
   {
     title: "Diamonds",
     artist: "プリンセス プリンセス",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 6.7,
     diffFemale: 7.4,
@@ -1107,7 +1107,7 @@ export const SONGS = [
   {
     title: "川の流れのように",
     artist: "美空ひばり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 6.5,
     diffFemale: 6.1,
@@ -1117,7 +1117,7 @@ export const SONGS = [
   {
     title: "恋人よ",
     artist: "五輪真弓",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5,
     diffFemale: 5,
@@ -1127,7 +1127,7 @@ export const SONGS = [
   {
     title: "Yes-No",
     artist: "オフコース",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 6.3,
     diffFemale: 5.7,
@@ -1137,7 +1137,7 @@ export const SONGS = [
   {
     title: "抱きしめてTONIGHT",
     artist: "田原俊彦",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 4.7,
     diffFemale: 4.9,
@@ -1147,7 +1147,7 @@ export const SONGS = [
   {
     title: "LINDA LINDA",
     artist: "THE BLUE HEARTS",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 6.1,
     diffFemale: 6.9,
@@ -1157,7 +1157,7 @@ export const SONGS = [
   {
     title: "プラスティック・ラブ",
     artist: "竹内まりや",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 4.4,
     diffFemale: 4,
@@ -1167,7 +1167,7 @@ export const SONGS = [
   {
     title: "淋しい熱帯魚",
     artist: "Wink",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 5.5,
     diffFemale: 5.7,
@@ -1177,7 +1177,7 @@ export const SONGS = [
   {
     title: "時をかける少女",
     artist: "原田知世",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 3.8,
     diffFemale: 3.8,
@@ -1187,7 +1187,7 @@ export const SONGS = [
   {
     title: "My Revolution",
     artist: "渡辺美里",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 6.4,
     diffFemale: 6.8,
@@ -1197,7 +1197,7 @@ export const SONGS = [
   {
     title: "浪漫飛行",
     artist: "米米CLUB",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.9,
     diffFemale: 6.3,
@@ -1207,7 +1207,7 @@ export const SONGS = [
   {
     title: "瑠璃色の地球",
     artist: "松田聖子",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 6.9,
     diffFemale: 6.5,
@@ -1217,7 +1217,7 @@ export const SONGS = [
   {
     title: "セカンドラブ",
     artist: "中森明菜",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 4.8,
     diffFemale: 4.4,
@@ -1227,7 +1227,7 @@ export const SONGS = [
   {
     title: "言葉にできない",
     artist: "オフコース",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1980年代",
     diffMale: 6,
     diffFemale: 4.8,
@@ -1237,7 +1237,7 @@ export const SONGS = [
   {
     title: "決戦は金曜日",
     artist: "DREAMS COME TRUE",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.1,
     diffFemale: 5.7,
@@ -1247,7 +1247,7 @@ export const SONGS = [
   {
     title: "サンキュ.",
     artist: "DREAMS COME TRUE",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.6,
     diffFemale: 6.2,
@@ -1257,7 +1257,7 @@ export const SONGS = [
   {
     title: "LOVE LOVE LOVE",
     artist: "DREAMS COME TRUE",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4,
     diffFemale: 4.2,
@@ -1267,7 +1267,7 @@ export const SONGS = [
   {
     title: "Tomorrow never knows",
     artist: "Mr.Children",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 6.7,
     diffFemale: 6.5,
@@ -1277,7 +1277,7 @@ export const SONGS = [
   {
     title: "シーソーゲーム〜勇敢な恋の歌〜",
     artist: "Mr.Children",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 5.8,
     diffFemale: 6.2,
@@ -1287,7 +1287,7 @@ export const SONGS = [
   {
     title: "名もなき詩",
     artist: "Mr.Children",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 6.8,
     diffFemale: 6.6,
@@ -1297,7 +1297,7 @@ export const SONGS = [
   {
     title: "DEPARTURES",
     artist: "globe",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.9,
     diffFemale: 6.5,
@@ -1307,7 +1307,7 @@ export const SONGS = [
   {
     title: "TRUE LOVE",
     artist: "藤井フミヤ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.9,
     diffFemale: 5.3,
@@ -1317,7 +1317,7 @@ export const SONGS = [
   {
     title: "LA・LA・LA LOVE SONG",
     artist: "久保田利伸",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6,
     diffFemale: 5.8,
@@ -1327,7 +1327,7 @@ export const SONGS = [
   {
     title: "CAN YOU CELEBRATE?",
     artist: "安室奈美恵",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.2,
     diffFemale: 7.1,
@@ -1337,7 +1337,7 @@ export const SONGS = [
   {
     title: "Body Feels EXIT",
     artist: "安室奈美恵",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.2,
     diffFemale: 6.6,
@@ -1347,7 +1347,7 @@ export const SONGS = [
   {
     title: "白い恋人達",
     artist: "桑田佳祐",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.8,
     diffFemale: 5.6,
@@ -1357,7 +1357,7 @@ export const SONGS = [
   {
     title: "空も飛べるはず",
     artist: "スピッツ",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 4.6,
     diffFemale: 4.8,
@@ -1367,7 +1367,7 @@ export const SONGS = [
   {
     title: "チェリー",
     artist: "スピッツ",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 4.2,
     diffFemale: 4.6,
@@ -1377,7 +1377,7 @@ export const SONGS = [
   {
     title: "Automatic",
     artist: "宇多田ヒカル",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.6,
     diffFemale: 6.6,
@@ -1387,7 +1387,7 @@ export const SONGS = [
   {
     title: "硝子の少年",
     artist: "KinKi Kids",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.8,
     diffFemale: 5.4,
@@ -1397,7 +1397,7 @@ export const SONGS = [
   {
     title: "どんなときも。",
     artist: "槇原敬之",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.7,
     diffFemale: 4.1,
@@ -1407,7 +1407,7 @@ export const SONGS = [
   {
     title: "もう恋なんてしない",
     artist: "槇原敬之",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.9,
     diffFemale: 5.5,
@@ -1417,7 +1417,7 @@ export const SONGS = [
   {
     title: "HELLO,AGAIN〜昔からある場所〜",
     artist: "THE COLLECTORS",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 5.5,
     diffFemale: 5.7,
@@ -1427,7 +1427,7 @@ export const SONGS = [
   {
     title: "つつみ込むように…",
     artist: "MISIA",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 7.4,
     diffFemale: 6.8,
@@ -1437,7 +1437,7 @@ export const SONGS = [
   {
     title: "WHITE LOVE",
     artist: "SPEED",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.2,
     diffFemale: 5.2,
@@ -1447,7 +1447,7 @@ export const SONGS = [
   {
     title: "my graduation",
     artist: "SPEED",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.3,
     diffFemale: 5.1,
@@ -1457,7 +1457,7 @@ export const SONGS = [
   {
     title: "あなたに会えてよかった",
     artist: "小泉今日子",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 3.6,
     diffFemale: 3.6,
@@ -1467,7 +1467,7 @@ export const SONGS = [
   {
     title: "愛は勝つ",
     artist: "KAN",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.2,
     diffFemale: 5.4,
@@ -1477,7 +1477,7 @@ export const SONGS = [
   {
     title: "A・RA・SHI",
     artist: "嵐",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.6,
     diffFemale: 5,
@@ -1487,7 +1487,7 @@ export const SONGS = [
   {
     title: "愛なんだ",
     artist: "V6",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.1,
     diffFemale: 5.1,
@@ -1497,7 +1497,7 @@ export const SONGS = [
   {
     title: "LOVE YOU ONLY",
     artist: "TOKIO",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.2,
     diffFemale: 5.2,
@@ -1507,7 +1507,7 @@ export const SONGS = [
   {
     title: "EZ DO DANCE",
     artist: "TRF",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.2,
     diffFemale: 6.6,
@@ -1517,7 +1517,7 @@ export const SONGS = [
   {
     title: "Time goes by",
     artist: "Every Little Thing",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.3,
     diffFemale: 6.7,
@@ -1527,7 +1527,7 @@ export const SONGS = [
   {
     title: "fragile",
     artist: "Every Little Thing",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.3,
     diffFemale: 4.9,
@@ -1537,7 +1537,7 @@ export const SONGS = [
   {
     title: "夢見る少女じゃいられない",
     artist: "相川七瀬",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.1,
     diffFemale: 5.5,
@@ -1547,7 +1547,7 @@ export const SONGS = [
   {
     title: "Be Together",
     artist: "鈴木あみ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.7,
     diffFemale: 5.3,
@@ -1557,7 +1557,7 @@ export const SONGS = [
   {
     title: "LOVE 2000",
     artist: "hitomi",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.2,
     diffFemale: 6,
@@ -1567,7 +1567,7 @@ export const SONGS = [
   {
     title: "糸",
     artist: "中島みゆき",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.4,
     diffFemale: 5.2,
@@ -1577,7 +1577,7 @@ export const SONGS = [
   {
     title: "春よ、来い",
     artist: "松任谷由実",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.4,
     diffFemale: 5.2,
@@ -1587,7 +1587,7 @@ export const SONGS = [
   {
     title: "メロディー",
     artist: "玉置浩二",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.1,
     diffFemale: 6.3,
@@ -1597,7 +1597,7 @@ export const SONGS = [
   {
     title: "黄金の月",
     artist: "スガシカオ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.4,
     diffFemale: 6.4,
@@ -1607,7 +1607,7 @@ export const SONGS = [
   {
     title: "誘惑",
     artist: "GLAY",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 6.3,
     diffFemale: 5.3,
@@ -1617,7 +1617,7 @@ export const SONGS = [
   {
     title: "花葬",
     artist: "L'Arc-en-Ciel",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 7.2,
     diffFemale: 6.6,
@@ -1627,7 +1627,7 @@ export const SONGS = [
   {
     title: "ROSIER",
     artist: "LUNA SEA",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 7.6,
     diffFemale: 8.1,
@@ -1637,7 +1637,7 @@ export const SONGS = [
   {
     title: "そばかす",
     artist: "JUDY AND MARY",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 5.6,
     diffFemale: 6.4,
@@ -1647,7 +1647,7 @@ export const SONGS = [
   {
     title: "楓",
     artist: "スピッツ",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 5.8,
     diffFemale: 5.2,
@@ -1657,7 +1657,7 @@ export const SONGS = [
   {
     title: "Boys & Girls",
     artist: "浜崎あゆみ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.2,
     diffFemale: 6,
@@ -1667,7 +1667,7 @@ export const SONGS = [
   {
     title: "さよなら人類",
     artist: "たま",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.7,
     diffFemale: 4.7,
@@ -1677,7 +1677,7 @@ export const SONGS = [
   {
     title: "世界中の誰よりきっと",
     artist: "中山美穂&WANDS",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.5,
     diffFemale: 6.5,
@@ -1687,7 +1687,7 @@ export const SONGS = [
   {
     title: "ラブ・ストーリーは突然に",
     artist: "小田和正",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.5,
     diffFemale: 5.7,
@@ -1697,7 +1697,7 @@ export const SONGS = [
   {
     title: "星降る夜に",
     artist: "中西保志",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5,
     diffFemale: 4.2,
@@ -1707,7 +1707,7 @@ export const SONGS = [
   {
     title: "世界がひとつになるまで",
     artist: "Ya-Ya-yah",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 4.3,
     diffFemale: 3.7,
@@ -1717,7 +1717,7 @@ export const SONGS = [
   {
     title: "アジアの純真",
     artist: "PUFFY",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 5.6,
     diffFemale: 5.4,
@@ -1727,7 +1727,7 @@ export const SONGS = [
   {
     title: "TSUNAMI",
     artist: "サザンオールスターズ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.8,
     diffFemale: 5.6,
@@ -1737,7 +1737,7 @@ export const SONGS = [
   {
     title: "Everything",
     artist: "MISIA",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.7,
     diffFemale: 7.4,
@@ -1747,7 +1747,7 @@ export const SONGS = [
   {
     title: "桜坂",
     artist: "福山雅治",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.4,
     diffFemale: 5,
@@ -1757,7 +1757,7 @@ export const SONGS = [
   {
     title: "Far away",
     artist: "浜崎あゆみ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.7,
     diffFemale: 5.5,
@@ -1767,7 +1767,7 @@ export const SONGS = [
   {
     title: "SEASONS",
     artist: "浜崎あゆみ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.7,
     diffFemale: 7,
@@ -1777,7 +1777,7 @@ export const SONGS = [
   {
     title: "M",
     artist: "浜崎あゆみ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.9,
     diffFemale: 8.2,
@@ -1787,7 +1787,7 @@ export const SONGS = [
   {
     title: "Love, Day After Tomorrow",
     artist: "倉木麻衣",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 6.3,
     diffFemale: 6.5,
@@ -1797,7 +1797,7 @@ export const SONGS = [
   {
     title: "Secret of my heart",
     artist: "倉木麻衣",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.7,
     diffFemale: 5.5,
@@ -1807,7 +1807,7 @@ export const SONGS = [
   {
     title: "夏祭り",
     artist: "Whiteberry",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.2,
     diffFemale: 5,
@@ -1817,7 +1817,7 @@ export const SONGS = [
   {
     title: "さくらんぼ",
     artist: "大塚愛",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5,
     diffFemale: 5.2,
@@ -1827,7 +1827,7 @@ export const SONGS = [
   {
     title: "涙そうそう",
     artist: "夏川りみ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.4,
     diffFemale: 5.8,
@@ -1837,7 +1837,7 @@ export const SONGS = [
   {
     title: "奏(かなで)",
     artist: "スキマスイッチ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.9,
     diffFemale: 5.7,
@@ -1847,7 +1847,7 @@ export const SONGS = [
   {
     title: "桜",
     artist: "コブクロ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.9,
     diffFemale: 6.3,
@@ -1857,7 +1857,7 @@ export const SONGS = [
   {
     title: "三日月",
     artist: "絢香",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.7,
     diffFemale: 6.7,
@@ -1867,7 +1867,7 @@ export const SONGS = [
   {
     title: "WINDING ROAD",
     artist: "絢香×コブクロ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6,
     diffFemale: 6.8,
@@ -1877,7 +1877,7 @@ export const SONGS = [
   {
     title: "Butterfly",
     artist: "木村カエラ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.8,
     diffFemale: 5.6,
@@ -1887,7 +1887,7 @@ export const SONGS = [
   {
     title: "リライト",
     artist: "ASIAN KUNG-FU GENERATION",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6,
     diffFemale: 6,
@@ -1897,7 +1897,7 @@ export const SONGS = [
   {
     title: "桜色舞うころ",
     artist: "GReeeeN",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.1,
     diffFemale: 5.7,
@@ -1907,7 +1907,7 @@ export const SONGS = [
   {
     title: "手紙〜拝啓十五の君へ〜",
     artist: "アンジェラ・アキ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.6,
     diffFemale: 6,
@@ -1917,7 +1917,7 @@ export const SONGS = [
   {
     title: "道",
     artist: "EXILE",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6,
     diffFemale: 6.6,
@@ -1927,7 +1927,7 @@ export const SONGS = [
   {
     title: "千の風になって",
     artist: "秋川雅史",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.5,
     diffFemale: 6.7,
@@ -1937,7 +1937,7 @@ export const SONGS = [
   {
     title: "Story",
     artist: "AI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.9,
     diffFemale: 6.1,
@@ -1947,7 +1947,7 @@ export const SONGS = [
   {
     title: "会いたかった",
     artist: "AKB48",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 4.8,
     diffFemale: 4.4,
@@ -1957,7 +1957,7 @@ export const SONGS = [
   {
     title: "未来へ",
     artist: "Kiroro",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.8,
     diffFemale: 5.4,
@@ -1967,7 +1967,7 @@ export const SONGS = [
   {
     title: "長い間",
     artist: "Kiroro",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.4,
     diffFemale: 6.2,
@@ -1977,7 +1977,7 @@ export const SONGS = [
   {
     title: "瞳をとじて",
     artist: "平井堅",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.5,
     diffFemale: 4.7,
@@ -1987,7 +1987,7 @@ export const SONGS = [
   {
     title: "大きな古時計",
     artist: "平井堅",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 3.7,
     diffFemale: 4.5,
@@ -1997,7 +1997,7 @@ export const SONGS = [
   {
     title: "夏色",
     artist: "ゆず",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.9,
     diffFemale: 4.3,
@@ -2007,7 +2007,7 @@ export const SONGS = [
   {
     title: "栄光の架橋",
     artist: "ゆず",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 4.7,
     diffFemale: 4.7,
@@ -2017,7 +2017,7 @@ export const SONGS = [
   {
     title: "蕾",
     artist: "コブクロ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6,
     diffFemale: 6.8,
@@ -2027,7 +2027,7 @@ export const SONGS = [
   {
     title: "PIECES OF A DREAM",
     artist: "CHEMISTRY",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.9,
     diffFemale: 6.5,
@@ -2037,7 +2037,7 @@ export const SONGS = [
   {
     title: "Jupiter",
     artist: "平原綾香",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.5,
     diffFemale: 6.3,
@@ -2047,7 +2047,7 @@ export const SONGS = [
   {
     title: "ultra soul",
     artist: "B'z",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6.7,
     diffFemale: 7.2,
@@ -2057,7 +2057,7 @@ export const SONGS = [
   {
     title: "愛のバクダン",
     artist: "B'z",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6.6,
     diffFemale: 7,
@@ -2067,7 +2067,7 @@ export const SONGS = [
   {
     title: "Real Face",
     artist: "KAT-TUN",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.8,
     diffFemale: 5.4,
@@ -2077,7 +2077,7 @@ export const SONGS = [
   {
     title: "らいおんハート",
     artist: "SMAP",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 4.6,
     diffFemale: 4,
@@ -2087,7 +2087,7 @@ export const SONGS = [
   {
     title: "夜空ノムコウ",
     artist: "SMAP",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "1990年代",
     diffMale: 4.1,
     diffFemale: 3.9,
@@ -2097,7 +2097,7 @@ export const SONGS = [
   {
     title: "アゲハ蝶",
     artist: "ポルノグラフィティ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.7,
     diffFemale: 6.1,
@@ -2107,7 +2107,7 @@ export const SONGS = [
   {
     title: "花-あなたに贈る詩-",
     artist: "Mr.Children",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2000年代",
     diffMale: 6.6,
     diffFemale: 6.6,
@@ -2117,7 +2117,7 @@ export const SONGS = [
   {
     title: "ポリリズム",
     artist: "Perfume",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.3,
     diffFemale: 4.7,
@@ -2127,7 +2127,7 @@ export const SONGS = [
   {
     title: "チョコレイト・ディスコ",
     artist: "Perfume",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 4.4,
     diffFemale: 4.4,
@@ -2137,7 +2137,7 @@ export const SONGS = [
   {
     title: "睡蓮花",
     artist: "湘南乃風",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.4,
     diffFemale: 6.2,
@@ -2147,7 +2147,7 @@ export const SONGS = [
   {
     title: "さくら",
     artist: "ケツメイシ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 4.8,
     diffFemale: 5.2,
@@ -2157,7 +2157,7 @@ export const SONGS = [
   {
     title: "あとひとつ",
     artist: "FUNKY MONKEY BABYS",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.2,
     diffFemale: 6.2,
@@ -2167,7 +2167,7 @@ export const SONGS = [
   {
     title: "罪と罰",
     artist: "椎名林檎",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 7.1,
     diffFemale: 6.7,
@@ -2177,7 +2177,7 @@ export const SONGS = [
   {
     title: "さくら(独唱)",
     artist: "森山直太朗",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 6.7,
     diffFemale: 6.1,
@@ -2187,7 +2187,7 @@ export const SONGS = [
   {
     title: "前略、道の上より",
     artist: "一世風靡セピア",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 6.3,
     diffFemale: 6.7,
@@ -2197,7 +2197,7 @@ export const SONGS = [
   {
     title: "会いたくて会いたくて",
     artist: "西野カナ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.9,
     diffFemale: 5.3,
@@ -2207,7 +2207,7 @@ export const SONGS = [
   {
     title: "トリセツ",
     artist: "西野カナ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.7,
     diffFemale: 5.1,
@@ -2217,7 +2217,7 @@ export const SONGS = [
   {
     title: "ヘビーローテーション",
     artist: "AKB48",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.2,
     diffFemale: 3,
@@ -2227,7 +2227,7 @@ export const SONGS = [
   {
     title: "フライングゲット",
     artist: "AKB48",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.8,
     diffFemale: 4.2,
@@ -2237,7 +2237,7 @@ export const SONGS = [
   {
     title: "さよならクロール",
     artist: "AKB48",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.7,
     diffFemale: 4.9,
@@ -2247,7 +2247,7 @@ export const SONGS = [
   {
     title: "恋するフォーチュンクッキー",
     artist: "AKB48",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 3.3,
     diffFemale: 3.1,
@@ -2257,7 +2257,7 @@ export const SONGS = [
   {
     title: "Beginner",
     artist: "AKB48",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.1,
     diffFemale: 4.7,
@@ -2267,7 +2267,7 @@ export const SONGS = [
   {
     title: "Calling",
     artist: "嵐",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.8,
     diffFemale: 5.6,
@@ -2277,7 +2277,7 @@ export const SONGS = [
   {
     title: "Happiness",
     artist: "嵐",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 5.3,
     diffFemale: 5.5,
@@ -2287,7 +2287,7 @@ export const SONGS = [
   {
     title: "やさしさで溢れるように",
     artist: "JUJU",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.3,
     diffFemale: 6.3,
@@ -2297,7 +2297,7 @@ export const SONGS = [
   {
     title: "家族になろうよ",
     artist: "福山雅治",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.7,
     diffFemale: 4.5,
@@ -2307,7 +2307,7 @@ export const SONGS = [
   {
     title: "風が吹いている",
     artist: "いきものがかり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.8,
     diffFemale: 6,
@@ -2317,7 +2317,7 @@ export const SONGS = [
   {
     title: "じょいふる",
     artist: "いきものがかり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.8,
     diffFemale: 5,
@@ -2327,7 +2327,7 @@ export const SONGS = [
   {
     title: "ありがとう",
     artist: "いきものがかり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.7,
     diffFemale: 5.1,
@@ -2337,7 +2337,7 @@ export const SONGS = [
   {
     title: "恋",
     artist: "星野源",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.9,
     diffFemale: 6.5,
@@ -2347,7 +2347,7 @@ export const SONGS = [
   {
     title: "君はロックを聴かない",
     artist: "あいみょん",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5,
     diffFemale: 4.8,
@@ -2357,7 +2357,7 @@ export const SONGS = [
   {
     title: "アイノカタチ",
     artist: "MISIA×HIDE",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.9,
     diffFemale: 6.9,
@@ -2367,7 +2367,7 @@ export const SONGS = [
   {
     title: "アイデア",
     artist: "星野源",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.2,
     diffFemale: 5.6,
@@ -2377,7 +2377,7 @@ export const SONGS = [
   {
     title: "香水",
     artist: "瑛人",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.2,
     diffFemale: 4.6,
@@ -2387,7 +2387,7 @@ export const SONGS = [
   {
     title: "クリスマスソング",
     artist: "back number",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.8,
     diffFemale: 4.8,
@@ -2397,7 +2397,7 @@ export const SONGS = [
   {
     title: "夜に駆ける",
     artist: "YOASOBI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7.3,
     diffFemale: 7.3,
@@ -2407,7 +2407,7 @@ export const SONGS = [
   {
     title: "R.Y.U.S.E.I.",
     artist: "三代目 J Soul Brothers",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.6,
     diffFemale: 6.7,
@@ -2417,7 +2417,7 @@ export const SONGS = [
   {
     title: "つけまつける",
     artist: "きゃりーぱみゅぱみゅ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.1,
     diffFemale: 3.9,
@@ -2427,7 +2427,7 @@ export const SONGS = [
   {
     title: "ファッションモンスター",
     artist: "きゃりーぱみゅぱみゅ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.7,
     diffFemale: 5.5,
@@ -2437,7 +2437,7 @@ export const SONGS = [
   {
     title: "シンデレラガール",
     artist: "King & Prince",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5,
     diffFemale: 5,
@@ -2447,7 +2447,7 @@ export const SONGS = [
   {
     title: "チャンカパーナ",
     artist: "NEWS",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.2,
     diffFemale: 4.2,
@@ -2457,7 +2457,7 @@ export const SONGS = [
   {
     title: "君の名は希望",
     artist: "乃木坂46",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.3,
     diffFemale: 3.9,
@@ -2467,7 +2467,7 @@ export const SONGS = [
   {
     title: "サイレントマジョリティー",
     artist: "欅坂46",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.2,
     diffFemale: 5.6,
@@ -2477,7 +2477,7 @@ export const SONGS = [
   {
     title: "U.S.A.",
     artist: "DA PUMP",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.2,
     diffFemale: 5.8,
@@ -2487,7 +2487,7 @@ export const SONGS = [
   {
     title: "花束を君に",
     artist: "宇多田ヒカル",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.4,
     diffFemale: 6.2,
@@ -2497,7 +2497,7 @@ export const SONGS = [
   {
     title: "only human",
     artist: "ONE OK ROCK",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 7.3,
     diffFemale: 7.2,
@@ -2507,7 +2507,7 @@ export const SONGS = [
   {
     title: "完全感覚Dreamer",
     artist: "ONE OK ROCK",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 6.8,
     diffFemale: 7,
@@ -2517,7 +2517,7 @@ export const SONGS = [
   {
     title: "うっせぇわ",
     artist: "Ado",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 7.4,
     diffFemale: 7.1,
@@ -2527,7 +2527,7 @@ export const SONGS = [
   {
     title: "新時代",
     artist: "Ado",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 8.9,
     diffFemale: 8.2,
@@ -2537,7 +2537,7 @@ export const SONGS = [
   {
     title: "ドライフラワー",
     artist: "優里",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 5.1,
     diffFemale: 6.1,
@@ -2547,7 +2547,7 @@ export const SONGS = [
   {
     title: "踊り子",
     artist: "Vaundy",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 7.2,
     diffFemale: 6.8,
@@ -2557,7 +2557,7 @@ export const SONGS = [
   {
     title: "Habit",
     artist: "Vaundy",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.9,
     diffFemale: 6.1,
@@ -2567,7 +2567,7 @@ export const SONGS = [
   {
     title: "Subtitle",
     artist: "Official髭男dism",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 6.7,
     diffFemale: 7.3,
@@ -2577,7 +2577,7 @@ export const SONGS = [
   {
     title: "Cry Baby",
     artist: "Official髭男dism",
-    genre: "アニメ",
+    genres: ["アニメ", "ロック"],
     era: "2020年代",
     diffMale: 7.3,
     diffFemale: 6.8,
@@ -2587,7 +2587,7 @@ export const SONGS = [
   {
     title: "花に亡霊",
     artist: "ヨルシカ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6,
     diffFemale: 6.4,
@@ -2597,7 +2597,7 @@ export const SONGS = [
   {
     title: "Overdose",
     artist: "なとり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.6,
     diffFemale: 6.2,
@@ -2607,7 +2607,7 @@ export const SONGS = [
   {
     title: "ライラック",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 6.4,
     diffFemale: 6.6,
@@ -2617,7 +2617,7 @@ export const SONGS = [
   {
     title: "コロンブス",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 7,
     diffFemale: 6.8,
@@ -2627,7 +2627,7 @@ export const SONGS = [
   {
     title: "群青",
     artist: "YOASOBI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 7.1,
     diffFemale: 6.4,
@@ -2637,7 +2637,7 @@ export const SONGS = [
   {
     title: "猫",
     artist: "DISH//",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 4.7,
     diffFemale: 4.9,
@@ -2647,7 +2647,7 @@ export const SONGS = [
   {
     title: "残響散歌",
     artist: "Aimer",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 7.6,
     diffFemale: 7.6,
@@ -2657,7 +2657,7 @@ export const SONGS = [
   {
     title: "Imitation Rain",
     artist: "SixTONES",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.3,
     diffFemale: 6.5,
@@ -2667,7 +2667,7 @@ export const SONGS = [
   {
     title: "青と夏",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 5.2,
     diffFemale: 5.2,
@@ -2677,7 +2677,7 @@ export const SONGS = [
   {
     title: "インフェルノ",
     artist: "Mrs. GREEN APPLE",
-    genre: "アニメ",
+    genres: ["アニメ", "ロック"],
     era: "2010年代",
     diffMale: 7.1,
     diffFemale: 6.8,
@@ -2687,7 +2687,7 @@ export const SONGS = [
   {
     title: "StaRt",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 5.4,
     diffFemale: 5.4,
@@ -2697,7 +2697,7 @@ export const SONGS = [
   {
     title: "ダンスホール",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 6.7,
     diffFemale: 6.3,
@@ -2707,7 +2707,7 @@ export const SONGS = [
   {
     title: "僕のこと",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 9,
     diffFemale: 8.2,
@@ -2717,7 +2717,7 @@ export const SONGS = [
   {
     title: "Bling-Bang-Bang-Born",
     artist: "Creepy Nuts",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 5.1,
     diffFemale: 5.1,
@@ -2727,7 +2727,7 @@ export const SONGS = [
   {
     title: "ばかまじめ",
     artist: "Creepy Nuts×Ayase×幾田りら",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.1,
     diffFemale: 7,
@@ -2737,7 +2737,7 @@ export const SONGS = [
   {
     title: "W/X/Y",
     artist: "Tani Yuuki",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.2,
     diffFemale: 5.8,
@@ -2747,7 +2747,7 @@ export const SONGS = [
   {
     title: "可愛くてごめん",
     artist: "HoneyWorks",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 4,
     diffFemale: 4,
@@ -2757,7 +2757,7 @@ export const SONGS = [
   {
     title: "オトナブルー",
     artist: "新しい学校のリーダーズ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.8,
     diffFemale: 6.6,
@@ -2767,7 +2767,7 @@ export const SONGS = [
   {
     title: "はいよろこんで",
     artist: "こっちのけんと",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 6.9,
     diffFemale: 6.9,
@@ -2777,7 +2777,7 @@ export const SONGS = [
   {
     title: "チーム友達",
     artist: "千葉雄喜",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 4.4,
     diffFemale: 4.4,
@@ -2787,7 +2787,7 @@ export const SONGS = [
   {
     title: "全方向美少女",
     artist: "乃紫",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 5.5,
     diffFemale: 5.1,
@@ -2797,7 +2797,7 @@ export const SONGS = [
   {
     title: "だから僕は音楽を辞めた",
     artist: "ヨルシカ",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 6.5,
     diffFemale: 6.3,
@@ -2807,7 +2807,7 @@ export const SONGS = [
   {
     title: "幾億光年",
     artist: "Omoinotake",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2020年代",
     diffMale: 7.4,
     diffFemale: 6.7,
@@ -2817,7 +2817,7 @@ export const SONGS = [
   {
     title: "オドループ",
     artist: "フレデリック",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 5.6,
     diffFemale: 5.4,
@@ -2827,20 +2827,17 @@ export const SONGS = [
   {
     title: "秒針を噛む",
     artist: "ずっと真夜中でいいのに。",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7,
     diffFemale: 7.3,
     breakdown: { pitchMale: 3.5, pitchFemale: 3.8, rhythm: 1.3, breath: 1, expression: 1.2 },
     comment: "独特な高音とテンポの速さを併せ持つ、歌いこなすのが難しい一曲。",
   },
-
-  // 難曲を中心に約95曲を追加(2026-07-18 第7弾)。実在確認済み(タイトル・アーティスト・年代)。
-  // スコアは既存曲と同じ4軸合計方式(音域5.0/リズム2.0/ブレス1.5/表現力1.5)。
   {
     title: "もらい泣き",
     artist: "一青窈",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 7,
     diffFemale: 6.6,
@@ -2850,7 +2847,7 @@ export const SONGS = [
   {
     title: "三原色",
     artist: "YOASOBI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 9.1,
     diffFemale: 8.7,
@@ -2860,7 +2857,7 @@ export const SONGS = [
   {
     title: "怪物",
     artist: "YOASOBI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 8.3,
     diffFemale: 7.9,
@@ -2870,7 +2867,7 @@ export const SONGS = [
   {
     title: "ロウワー",
     artist: "ぬゆり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 8.8,
     diffFemale: 9.1,
@@ -2880,7 +2877,7 @@ export const SONGS = [
   {
     title: "夜明けと蛍",
     artist: "n-buna",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 7.7,
     diffFemale: 7.9,
@@ -2890,7 +2887,7 @@ export const SONGS = [
   {
     title: "One Last Kiss",
     artist: "宇多田ヒカル",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 7.9,
     diffFemale: 7.6,
@@ -2900,7 +2897,7 @@ export const SONGS = [
   {
     title: "廻廻奇譚",
     artist: "Eve",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 8.3,
     diffFemale: 8,
@@ -2910,7 +2907,7 @@ export const SONGS = [
   {
     title: "心臓と絡繰",
     artist: "花譜",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7.8,
     diffFemale: 7.5,
@@ -2920,7 +2917,7 @@ export const SONGS = [
   {
     title: "大正浪漫",
     artist: "YOASOBI",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 8.6,
     diffFemale: 8.8,
@@ -2930,7 +2927,7 @@ export const SONGS = [
   {
     title: "チューリップ",
     artist: "さユり",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7.3,
     diffFemale: 7.6,
@@ -2940,7 +2937,7 @@ export const SONGS = [
   {
     title: "ARIA",
     artist: "Kalafina",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2000年代",
     diffMale: 7.9,
     diffFemale: 8.3,
@@ -2950,7 +2947,7 @@ export const SONGS = [
   {
     title: "明日への賛歌",
     artist: "アリス",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7.8,
     diffFemale: 8.2,
@@ -2960,7 +2957,7 @@ export const SONGS = [
   {
     title: "夜もすがら君想ふ",
     artist: "Leo/need",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7.5,
     diffFemale: 7.8,
@@ -2970,7 +2967,7 @@ export const SONGS = [
   {
     title: "紅",
     artist: "X JAPAN",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 8.8,
     diffFemale: 8.2,
@@ -2980,7 +2977,7 @@ export const SONGS = [
   {
     title: "ENDLESS RAIN",
     artist: "X JAPAN",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1980年代",
     diffMale: 8,
     diffFemale: 7.6,
@@ -2990,7 +2987,7 @@ export const SONGS = [
   {
     title: "Forever Love",
     artist: "X JAPAN",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "1990年代",
     diffMale: 7.7,
     diffFemale: 7.4,
@@ -3000,7 +2997,7 @@ export const SONGS = [
   {
     title: "おしゃかしゃま",
     artist: "RADWIMPS",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 8.2,
     diffFemale: 7.9,
@@ -3010,7 +3007,7 @@ export const SONGS = [
   {
     title: "The Beginning",
     artist: "ONE OK ROCK",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 8.3,
     diffFemale: 8,
@@ -3020,7 +3017,7 @@ export const SONGS = [
   {
     title: "逆夢",
     artist: "King Gnu",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 8.3,
     diffFemale: 8.5,
@@ -3030,7 +3027,7 @@ export const SONGS = [
   {
     title: "自由の翼",
     artist: "Linked Horizon",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 8.4,
     diffFemale: 8.1,
@@ -3040,7 +3037,7 @@ export const SONGS = [
   {
     title: "紅蓮の弓矢",
     artist: "Linked Horizon",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 8.3,
     diffFemale: 8,
@@ -3050,7 +3047,7 @@ export const SONGS = [
   {
     title: "その血の運命",
     artist: "富永TOMMY弘明",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 8.2,
     diffFemale: 7.9,
@@ -3060,7 +3057,7 @@ export const SONGS = [
   {
     title: "誰も知らない",
     artist: "Aqua Timez",
-    genre: "アニメ",
+    genres: ["アニメ", "ロック"],
     era: "2000年代",
     diffMale: 7.7,
     diffFemale: 7.4,
@@ -3070,7 +3067,7 @@ export const SONGS = [
   {
     title: "Butter-Fly",
     artist: "和田光司",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "1990年代",
     diffMale: 7.7,
     diffFemale: 7.4,
@@ -3080,7 +3077,7 @@ export const SONGS = [
   {
     title: "ヴィラン",
     artist: "てにをは feat. flower",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2020年代",
     diffMale: 8.7,
     diffFemale: 9,
@@ -3090,7 +3087,7 @@ export const SONGS = [
   {
     title: "千の夜をこえて",
     artist: "Aqua Timez",
-    genre: "アニメ",
+    genres: ["アニメ", "ロック"],
     era: "2010年代",
     diffMale: 8.5,
     diffFemale: 8.8,
@@ -3100,7 +3097,7 @@ export const SONGS = [
   {
     title: "リビジョン",
     artist: "GARNiDELiA",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 8.3,
     diffFemale: 8.5,
@@ -3110,7 +3107,7 @@ export const SONGS = [
   {
     title: "to the beginning",
     artist: "Kalafina",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 7.9,
     diffFemale: 8.3,
@@ -3120,7 +3117,7 @@ export const SONGS = [
   {
     title: "蝶々結び",
     artist: "Aimer",
-    genre: "アニメ",
+    genres: ["アニメ", "J-POP"],
     era: "2010年代",
     diffMale: 7.5,
     diffFemale: 7.9,
@@ -3130,7 +3127,7 @@ export const SONGS = [
   {
     title: "God knows...",
     artist: "平野綾",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 9,
     diffFemale: 9.3,
@@ -3140,7 +3137,7 @@ export const SONGS = [
   {
     title: "ハレ晴レユカイ",
     artist: "平野綾・茅原実里・後藤邑子",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 7.7,
     diffFemale: 7.9,
@@ -3150,7 +3147,7 @@ export const SONGS = [
   {
     title: "創聖のアクエリオン",
     artist: "AKINO with bless4",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2000年代",
     diffMale: 8,
     diffFemale: 8.2,
@@ -3160,7 +3157,7 @@ export const SONGS = [
   {
     title: "極楽浄土",
     artist: "GARNiDELiA",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2010年代",
     diffMale: 8.2,
     diffFemale: 7.9,
@@ -3170,7 +3167,7 @@ export const SONGS = [
   {
     title: "THE HERO!!〜怒れる拳に火をつけろ〜",
     artist: "JAM Project",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2010年代",
     diffMale: 8.4,
     diffFemale: 8.1,
@@ -3180,7 +3177,7 @@ export const SONGS = [
   {
     title: "カワキヲアメク",
     artist: "美波",
-    genre: "アニメ",
+    genres: ["アニメ"],
     era: "2020年代",
     diffMale: 8.7,
     diffFemale: 9,
@@ -3190,7 +3187,7 @@ export const SONGS = [
   {
     title: "脳漿炸裂ガール",
     artist: "れるりり feat. 初音ミク・GUMI",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.4,
     diffFemale: 8.4,
@@ -3200,7 +3197,7 @@ export const SONGS = [
   {
     title: "ロストワンの号哭",
     artist: "Neru feat. 鏡音リン",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.6,
     diffFemale: 8.6,
@@ -3210,7 +3207,7 @@ export const SONGS = [
   {
     title: "モザイクロール",
     artist: "DECO*27 feat. GUMI",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.1,
     diffFemale: 8.1,
@@ -3220,7 +3217,7 @@ export const SONGS = [
   {
     title: "六兆年と一夜物語",
     artist: "kemu feat. IA",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.7,
     diffFemale: 8.7,
@@ -3230,7 +3227,7 @@ export const SONGS = [
   {
     title: "Just Be Friends",
     artist: "Dixie Flatline feat. 巡音ルカ",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2000年代",
     diffMale: 7.7,
     diffFemale: 8,
@@ -3240,7 +3237,7 @@ export const SONGS = [
   {
     title: "ハッピーシンセサイザ",
     artist: "EasyPop feat. 初音ミク・GUMI",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.2,
     diffFemale: 8.2,
@@ -3250,7 +3247,7 @@ export const SONGS = [
   {
     title: "チルドレンレコード",
     artist: "Neru feat. 鏡音リン",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.3,
     diffFemale: 8.3,
@@ -3260,7 +3257,7 @@ export const SONGS = [
   {
     title: "グッバイ宣言",
     artist: "Chinozo feat. 可不",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 8.3,
     diffFemale: 8.3,
@@ -3270,7 +3267,7 @@ export const SONGS = [
   {
     title: "東京フラッシュ",
     artist: "Vaundy",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2020年代",
     diffMale: 8.2,
     diffFemale: 8.2,
@@ -3280,7 +3277,7 @@ export const SONGS = [
   {
     title: "深海少女",
     artist: "ゆうゆ feat. GUMI",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2000年代",
     diffMale: 7.5,
     diffFemale: 7.5,
@@ -3290,7 +3287,7 @@ export const SONGS = [
   {
     title: "心做し",
     artist: "蝶々P",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.5,
     diffFemale: 7.8,
@@ -3300,7 +3297,7 @@ export const SONGS = [
   {
     title: "天ノ弱",
     artist: "164 feat. GUMI",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.5,
     diffFemale: 7.5,
@@ -3310,7 +3307,7 @@ export const SONGS = [
   {
     title: "インビジブル",
     artist: "kemu feat. GUMI・鏡音リン",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 8,
     diffFemale: 8,
@@ -3320,7 +3317,7 @@ export const SONGS = [
   {
     title: "アスノヨゾラ哨戒班",
     artist: "n-buna feat. 初音ミク",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 8.2,
     diffFemale: 8.2,
@@ -3330,7 +3327,7 @@ export const SONGS = [
   {
     title: "テオ",
     artist: "ラマーズP feat. 鏡音リン・レン",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.6,
     diffFemale: 7.6,
@@ -3340,7 +3337,7 @@ export const SONGS = [
   {
     title: "恋愛裁判",
     artist: "40mP・むぅ feat. GUMI",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.1,
     diffFemale: 7.3,
@@ -3350,7 +3347,7 @@ export const SONGS = [
   {
     title: "カトラリー",
     artist: "Chinozo feat. 重音テト",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 8,
     diffFemale: 8,
@@ -3360,7 +3357,7 @@ export const SONGS = [
   {
     title: "神っぽいな",
     artist: "ピノキオピー feat. 可不",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 8.3,
     diffFemale: 8.3,
@@ -3370,7 +3367,7 @@ export const SONGS = [
   {
     title: "ラグトレイン",
     artist: "Chinozo feat. 可不",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2020年代",
     diffMale: 8.2,
     diffFemale: 8.2,
@@ -3380,7 +3377,7 @@ export const SONGS = [
   {
     title: "六等星の夜",
     artist: "DECO*27 feat. 初音ミク",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.5,
     diffFemale: 7.7,
@@ -3390,7 +3387,7 @@ export const SONGS = [
   {
     title: "命に嫌われている。",
     artist: "カンザキイオリ feat. 初音ミク",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.9,
     diffFemale: 8.1,
@@ -3400,7 +3397,7 @@ export const SONGS = [
   {
     title: "ヒバナ",
     artist: "DECO*27 feat. 初音ミク・巡音ルカ",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.8,
     diffFemale: 8,
@@ -3410,7 +3407,7 @@ export const SONGS = [
   {
     title: "トリノコシティ",
     artist: "OSTER project feat. 重音テト",
-    genre: "ボカロ",
+    genres: ["ボカロ"],
     era: "2010年代",
     diffMale: 7.4,
     diffFemale: 7.4,
@@ -3420,7 +3417,7 @@ export const SONGS = [
   {
     title: "I Will Always Love You",
     artist: "Whitney Houston",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 8.4,
     diffFemale: 8.8,
@@ -3430,7 +3427,7 @@ export const SONGS = [
   {
     title: "I Wanna Dance with Somebody",
     artist: "Whitney Houston",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7.9,
     diffFemale: 8.2,
@@ -3440,7 +3437,7 @@ export const SONGS = [
   {
     title: "Greatest Love of All",
     artist: "Whitney Houston",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7.9,
     diffFemale: 8.2,
@@ -3450,7 +3447,7 @@ export const SONGS = [
   {
     title: "And I Am Telling You I'm Not Going",
     artist: "Jennifer Hudson",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2000年代",
     diffMale: 8.2,
     diffFemale: 8.6,
@@ -3460,7 +3457,7 @@ export const SONGS = [
   {
     title: "Emotions",
     artist: "Mariah Carey",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 8.2,
     diffFemale: 8.9,
@@ -3470,7 +3467,7 @@ export const SONGS = [
   {
     title: "Vision of Love",
     artist: "Mariah Carey",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.6,
     diffFemale: 8.4,
@@ -3480,7 +3477,7 @@ export const SONGS = [
   {
     title: "Hero",
     artist: "Mariah Carey",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.3,
     diffFemale: 7.7,
@@ -3490,7 +3487,7 @@ export const SONGS = [
   {
     title: "Without You",
     artist: "Mariah Carey",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 8,
     diffFemale: 8.5,
@@ -3500,7 +3497,7 @@ export const SONGS = [
   {
     title: "All By Myself",
     artist: "Celine Dion",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 8.1,
     diffFemale: 8.4,
@@ -3510,7 +3507,7 @@ export const SONGS = [
   {
     title: "My Heart Will Go On",
     artist: "Celine Dion",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.7,
     diffFemale: 8,
@@ -3520,7 +3517,7 @@ export const SONGS = [
   {
     title: "The Power of Love",
     artist: "Celine Dion",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.5,
     diffFemale: 7.8,
@@ -3530,7 +3527,7 @@ export const SONGS = [
   {
     title: "Chandelier",
     artist: "Sia",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 8.5,
     diffFemale: 8.9,
@@ -3540,7 +3537,7 @@ export const SONGS = [
   {
     title: "Hello",
     artist: "Adele",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7.7,
     diffFemale: 8,
@@ -3550,7 +3547,7 @@ export const SONGS = [
   {
     title: "Skyfall",
     artist: "Adele",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7.6,
     diffFemale: 7.9,
@@ -3560,7 +3557,7 @@ export const SONGS = [
   {
     title: "Someone Like You",
     artist: "Adele",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7.1,
     diffFemale: 7.4,
@@ -3570,7 +3567,7 @@ export const SONGS = [
   {
     title: "Total Eclipse of the Heart",
     artist: "Bonnie Tyler",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7.5,
     diffFemale: 7.7,
@@ -3580,7 +3577,7 @@ export const SONGS = [
   {
     title: "Stairway to Heaven",
     artist: "Led Zeppelin",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1970年代",
     diffMale: 8.1,
     diffFemale: 7.8,
@@ -3590,7 +3587,7 @@ export const SONGS = [
   {
     title: "Immigrant Song",
     artist: "Led Zeppelin",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1970年代",
     diffMale: 8.1,
     diffFemale: 7.7,
@@ -3600,7 +3597,7 @@ export const SONGS = [
   {
     title: "Nothing Else Matters",
     artist: "Metallica",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.3,
     diffFemale: 7,
@@ -3610,7 +3607,7 @@ export const SONGS = [
   {
     title: "Believer",
     artist: "Imagine Dragons",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7.6,
     diffFemale: 7.3,
@@ -3620,7 +3617,7 @@ export const SONGS = [
   {
     title: "Radioactive",
     artist: "Imagine Dragons",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7.3,
     diffFemale: 7,
@@ -3630,7 +3627,7 @@ export const SONGS = [
   {
     title: "The Show Must Go On",
     artist: "Queen",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 8.2,
     diffFemale: 7.9,
@@ -3640,7 +3637,7 @@ export const SONGS = [
   {
     title: "Somebody to Love",
     artist: "Queen",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1970年代",
     diffMale: 8.4,
     diffFemale: 8.6,
@@ -3650,7 +3647,7 @@ export const SONGS = [
   {
     title: "Don't Stop Me Now",
     artist: "Queen",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1970年代",
     diffMale: 8.3,
     diffFemale: 8,
@@ -3660,7 +3657,7 @@ export const SONGS = [
   {
     title: "Listen",
     artist: "Beyoncé",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2000年代",
     diffMale: 8.1,
     diffFemale: 8.5,
@@ -3670,7 +3667,7 @@ export const SONGS = [
   {
     title: "Halo",
     artist: "Beyoncé",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2000年代",
     diffMale: 7.3,
     diffFemale: 7.6,
@@ -3680,7 +3677,7 @@ export const SONGS = [
   {
     title: "Love on Top",
     artist: "Beyoncé",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2010年代",
     diffMale: 7.8,
     diffFemale: 8.1,
@@ -3690,7 +3687,7 @@ export const SONGS = [
   {
     title: "Bleeding Love",
     artist: "Leona Lewis",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2000年代",
     diffMale: 7.3,
     diffFemale: 7.6,
@@ -3700,7 +3697,7 @@ export const SONGS = [
   {
     title: "Rehab",
     artist: "Amy Winehouse",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "2000年代",
     diffMale: 7.3,
     diffFemale: 7.5,
@@ -3710,7 +3707,7 @@ export const SONGS = [
   {
     title: "Purple Rain",
     artist: "Prince",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7.6,
     diffFemale: 7.3,
@@ -3720,7 +3717,7 @@ export const SONGS = [
   {
     title: "Killing Me Softly With His Song",
     artist: "Fugees",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.4,
     diffFemale: 7.7,
@@ -3730,7 +3727,7 @@ export const SONGS = [
   {
     title: "I Will Survive",
     artist: "Gloria Gaynor",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1970年代",
     diffMale: 7.3,
     diffFemale: 7.6,
@@ -3740,7 +3737,7 @@ export const SONGS = [
   {
     title: "Alone",
     artist: "Heart",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 8.1,
     diffFemale: 8.4,
@@ -3750,7 +3747,7 @@ export const SONGS = [
   {
     title: "Man in the Mirror",
     artist: "Michael Jackson",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1980年代",
     diffMale: 7.8,
     diffFemale: 7.5,
@@ -3760,7 +3757,7 @@ export const SONGS = [
   {
     title: "I Believe I Can Fly",
     artist: "R. Kelly",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.3,
     diffFemale: 7,
@@ -3770,51 +3767,47 @@ export const SONGS = [
   {
     title: "A Whole New World",
     artist: "Peabo Bryson & Regina Belle",
-    genre: "洋楽",
+    genres: ["洋楽"],
     era: "1990年代",
     diffMale: 7.5,
     diffFemale: 7.8,
     breakdown: { pitchMale: 3.9, pitchFemale: 4.2, rhythm: 0.8, breath: 1.4, expression: 1.4 },
     comment: "デュエット曲をソロで歌うと男女パートの音域差が難所になる。",
   },
-
-  // Mrs. GREEN APPLE追加(2026-07-18 第8弾)。ダーリンは実在確認済み(2025年1月配信、第67回日本レコード大賞受賞)。
-  // クスシキ・lulu.・Soranjiはユーザー提供の曲名で、タイトル自体の信頼度は高いが、
-  // 年代・詳細な発売情報はWebSearchのレート制限により未検証(要フォローアップ)。
   {
     title: "ダーリン",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 7.2,
-    diffFemale: 7.0,
-    breakdown: { pitchMale: 3.5, pitchFemale: 3.3, rhythm: 1.0, breath: 1.3, expression: 1.4 },
+    diffFemale: 7,
+    breakdown: { pitchMale: 3.5, pitchFemale: 3.3, rhythm: 1, breath: 1.3, expression: 1.4 },
     comment: "「18祭」テーマソングらしい壮大なスケールと感情表現の込め方が求められる。",
   },
   {
     title: "クスシキ",
     artist: "Mrs. GREEN APPLE",
-    genre: "アニメ",
+    genres: ["アニメ", "ロック"],
     era: "2020年代",
-    diffMale: 10.0,
-    diffFemale: 10.0,
-    breakdown: { pitchMale: 5.0, pitchFemale: 5.0, rhythm: 2.0, breath: 1.5, expression: 1.5 },
+    diffMale: 10,
+    diffFemale: 10,
+    breakdown: { pitchMale: 5, pitchFemale: 5, rhythm: 2, breath: 1.5, expression: 1.5 },
     comment: "ファンの間で「不可能レベル」とまで言われる、全曲中でも屈指(暫定・最高難度)の一曲。",
   },
   {
     title: "lulu.",
     artist: "Mrs. GREEN APPLE",
-    genre: "アニメ",
+    genres: ["アニメ", "ロック"],
     era: "2020年代",
     diffMale: 6.8,
-    diffFemale: 7.0,
-    breakdown: { pitchMale: 3.3, pitchFemale: 3.5, rhythm: 1.0, breath: 1.2, expression: 1.3 },
+    diffFemale: 7,
+    breakdown: { pitchMale: 3.3, pitchFemale: 3.5, rhythm: 1, breath: 1.2, expression: 1.3 },
     comment: "繊細な歌い出しから徐々に感情が高まっていく展開が難しい。",
   },
   {
     title: "Soranji",
     artist: "Mrs. GREEN APPLE",
-    genre: "ロック",
+    genres: ["ロック"],
     era: "2020年代",
     diffMale: 7.7,
     diffFemale: 7.5,
@@ -3824,7 +3817,7 @@ export const SONGS = [
   {
     title: "ノンフィクション",
     artist: "平井堅",
-    genre: "J-POP",
+    genres: ["J-POP"],
     era: "2010年代",
     diffMale: 7.2,
     diffFemale: 7.4,
