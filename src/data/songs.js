@@ -7,7 +7,7 @@
 // 曲・アーティスト・発売年代は実在の人気曲を収録しており、2026-07-18に大部分をWeb検索でファクトチェック済み。
 // ただし難易度スコア自体は試聴なしの見積もりであり、こちらは未検証のまま。
 export const GENRES = ['J-POP', 'アニメ', 'ロック', 'ボカロ', '洋楽']
-export const ERAS = ['1970年代', '1980年代', '1990年代', '2000年代', '2010年代', '2020年代']
+export const ERAS = ['1960年代', '1970年代', '1980年代', '1990年代', '2000年代', '2010年代', '2020年代']
 export const LEVELS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 export const SONGS = [
@@ -96,7 +96,7 @@ export const SONGS = [
     title: "ロキ",
     artist: "みきとP feat.鏡音リン",
     genres: ["ボカロ"],
-    era: "2020年代",
+    era: "2010年代",
     diff: 7.3,
     breakdown: { pitch: 3.6, rhythm: 1.7, breath: 1.1, expression: 0.9 },
     comment: "高速の歌詞と細かいリズムの刻みが最大の壁。",
@@ -789,7 +789,7 @@ export const SONGS = [
     title: "ゾンビ",
     artist: "DECO*27",
     genres: ["ボカロ"],
-    era: "2010年代",
+    era: "2020年代",
     diff: 7.3,
     breakdown: { pitch: 3.7, rhythm: 1.3, breath: 1.1, expression: 1.2 },
     comment: "感情を爆発させるようなサビの歌い上げが体力を要する。",
@@ -1165,7 +1165,7 @@ export const SONGS = [
   },
   {
     title: "LA・LA・LA LOVE SONG",
-    artist: "久保田利伸",
+    artist: "久保田利伸 with ナオミ・キャンベル",
     genres: ["J-POP"],
     era: "1990年代",
     diff: 5.9,
@@ -1481,7 +1481,7 @@ export const SONGS = [
   {
     title: "さよなら人類",
     artist: "たま",
-    genres: ["J-POP"],
+    genres: ["ロック"],
     era: "1990年代",
     diff: 4.7,
     breakdown: { pitch: 2.1, rhythm: 1.2, breath: 0.7, expression: 0.7 },
@@ -1687,7 +1687,7 @@ export const SONGS = [
   },
   {
     title: "桜色舞うころ",
-    artist: "GReeeeN",
+    artist: "中島美嘉",
     genres: ["J-POP"],
     era: "2000年代",
     diff: 5.9,
@@ -1752,7 +1752,7 @@ export const SONGS = [
     title: "長い間",
     artist: "Kiroro",
     genres: ["J-POP"],
-    era: "2000年代",
+    era: "1990年代",
     diff: 5.8,
     breakdown: { pitch: 2.5, rhythm: 1.3, breath: 1, expression: 1 },
     comment: "サビの盛り上がりで安定した声量を保つ必要がある。",
@@ -2101,7 +2101,7 @@ export const SONGS = [
   },
   {
     title: "アイノカタチ",
-    artist: "MISIA×HIDE",
+    artist: "MISIA feat.HIDE(GReeeeN)",
     genres: ["J-POP"],
     era: "2010年代",
     diff: 6.9,
@@ -2224,15 +2224,6 @@ export const SONGS = [
     diff: 6.3,
     breakdown: { pitch: 3.2, rhythm: 1.2, breath: 0.8, expression: 1.1 },
     comment: "サビにかけての盛り上がりを歌い切るスタミナが必要。",
-  },
-  {
-    title: "only human",
-    artist: "ONE OK ROCK",
-    genres: ["ロック"],
-    era: "2010年代",
-    diff: 7.3,
-    breakdown: { pitch: 3.8, rhythm: 1.3, breath: 1.1, expression: 1.1 },
-    comment: "地声と裏声の切り替えなど、テクニック面での難所が多い。",
   },
   {
     title: "完全感覚Dreamer",
@@ -2560,8 +2551,8 @@ export const SONGS = [
   },
   {
     title: "ロウワー",
-    artist: "ぬゆり",
-    genres: ["J-POP"],
+    artist: "ぬゆり feat. flower",
+    genres: ["ボカロ"],
     era: "2020年代",
     diff: 8.9,
     breakdown: { pitch: 4.4, rhythm: 1.6, breath: 1.4, expression: 1.5 },
@@ -2569,9 +2560,9 @@ export const SONGS = [
   },
   {
     title: "夜明けと蛍",
-    artist: "n-buna",
-    genres: ["J-POP"],
-    era: "2020年代",
+    artist: "n-buna feat. 初音ミク",
+    genres: ["ボカロ"],
+    era: "2010年代",
     diff: 7.8,
     breakdown: { pitch: 3.9, rhythm: 1, breath: 1.4, expression: 1.5 },
     comment: "静と動の落差が激しく、繊細な表現力が問われるバラード。",
@@ -2607,7 +2598,7 @@ export const SONGS = [
     title: "大正浪漫",
     artist: "YOASOBI",
     genres: ["J-POP"],
-    era: "2010年代",
+    era: "2020年代",
     diff: 8.7,
     breakdown: { pitch: 4.3, rhythm: 1.5, breath: 1.4, expression: 1.5 },
     comment: "和風の旋律に乗せた広い音域と裏声の使い分けが必須。",
@@ -2625,7 +2616,7 @@ export const SONGS = [
     title: "明日への賛歌",
     artist: "アリス",
     genres: ["J-POP"],
-    era: "2010年代",
+    era: "1970年代",
     diff: 8,
     breakdown: { pitch: 4.2, rhythm: 0.9, breath: 1.4, expression: 1.5 },
     comment: "透明感のある高音の重なりを1人で歌うと音域の広さが際立つ。",
@@ -2634,7 +2625,7 @@ export const SONGS = [
     title: "夜もすがら君想ふ",
     artist: "Leo/need",
     genres: ["J-POP"],
-    era: "2010年代",
+    era: "2020年代",
     diff: 7.7,
     breakdown: { pitch: 3.9, rhythm: 1.1, breath: 1.3, expression: 1.4 },
     comment: "和のテイストと繊細な高音表現の両立が求められる。",
@@ -2732,7 +2723,7 @@ export const SONGS = [
   {
     title: "ヴィラン",
     artist: "てにをは feat. flower",
-    genres: ["アニメ"],
+    genres: ["ボカロ"],
     era: "2020年代",
     diff: 8.8,
     breakdown: { pitch: 4.4, rhythm: 1.5, breath: 1.4, expression: 1.5 },
@@ -2814,7 +2805,7 @@ export const SONGS = [
     title: "カワキヲアメク",
     artist: "美波",
     genres: ["アニメ"],
-    era: "2020年代",
+    era: "2010年代",
     diff: 8.9,
     breakdown: { pitch: 4.6, rhythm: 1.4, breath: 1.4, expression: 1.5 },
     comment: "感情が爆発するような高音シャウトが最大の難所。",
@@ -2902,9 +2893,9 @@ export const SONGS = [
   },
   {
     title: "深海少女",
-    artist: "ゆうゆ feat. GUMI",
+    artist: "ゆうゆ feat. 初音ミク",
     genres: ["ボカロ"],
-    era: "2000年代",
+    era: "2010年代",
     diff: 7.5,
     breakdown: { pitch: 3.6, rhythm: 1.1, breath: 1.4, expression: 1.4 },
     comment: "幻想的な世界観を繊細な歌唱で表現する必要がある初期ボカロの名曲。",
@@ -2931,7 +2922,7 @@ export const SONGS = [
     title: "インビジブル",
     artist: "kemu feat. GUMI・鏡音リン",
     genres: ["ボカロ"],
-    era: "2020年代",
+    era: "2010年代",
     diff: 8,
     breakdown: { pitch: 3.7, rhythm: 1.7, breath: 1.3, expression: 1.3 },
     comment: "重音テトらしい鋭い高音とテンポの良さが求められる。",
@@ -2964,15 +2955,6 @@ export const SONGS = [
     comment: "ゆったりしたテンポの中に繊細な感情表現を込める必要がある。",
   },
   {
-    title: "カトラリー",
-    artist: "Chinozo feat. 重音テト",
-    genres: ["ボカロ"],
-    era: "2020年代",
-    diff: 8,
-    breakdown: { pitch: 3.7, rhythm: 1.8, breath: 1.2, expression: 1.3 },
-    comment: "鋭さのある高音と勢いのあるビートが特徴。",
-  },
-  {
     title: "神っぽいな",
     artist: "ピノキオピー feat. 可不",
     genres: ["ボカロ"],
@@ -2992,8 +2974,8 @@ export const SONGS = [
   },
   {
     title: "六等星の夜",
-    artist: "DECO*27 feat. 初音ミク",
-    genres: ["ボカロ"],
+    artist: "Aimer",
+    genres: ["J-POP", "アニメ"],
     era: "2010年代",
     diff: 7.6,
     breakdown: { pitch: 3.8, rhythm: 1, breath: 1.4, expression: 1.4 },
@@ -3010,7 +2992,7 @@ export const SONGS = [
   },
   {
     title: "ヒバナ",
-    artist: "DECO*27 feat. 初音ミク・巡音ルカ",
+    artist: "DECO*27 feat. 初音ミク",
     genres: ["ボカロ"],
     era: "2010年代",
     diff: 7.9,
@@ -3019,7 +3001,7 @@ export const SONGS = [
   },
   {
     title: "トリノコシティ",
-    artist: "OSTER project feat. 重音テト",
+    artist: "40mP feat. 初音ミク",
     genres: ["ボカロ"],
     era: "2010年代",
     diff: 7.4,
@@ -3631,7 +3613,7 @@ export const SONGS = [
   },
   {
     title: "ふたりの夏物語 NEVER ENDING SUMMER",
-    artist: "杉山清貴&オメガドライブ",
+    artist: "杉山清貴&オメガトライブ",
     genres: ["J-POP"],
     era: "1980年代",
     diff: 4.6,
@@ -4395,7 +4377,7 @@ export const SONGS = [
     comment: "ディスコ調で繰り返しの多いキャッチーなサビ、音域も比較的狭い。",
   },
   {
-    title: "超ときめき♡宣伝部の曲",
+    title: "超最強",
     artist: "超ときめき♡宣伝部",
     genres: ["J-POP"],
     era: "2020年代",
@@ -4497,7 +4479,7 @@ export const SONGS = [
     title: "夜の踊り子",
     artist: "サカナクション",
     genres: ["ロック"],
-    era: "2020年代",
+    era: "2010年代",
     diff: 6.4,
     breakdown: { pitch: 3, rhythm: 1.4, breath: 0.9, expression: 1.1 },
     comment: "TikTokで話題化、浮遊感あるメロディでミドル難度。",
@@ -4522,7 +4504,7 @@ export const SONGS = [
   },
   {
     title: "T氏の話を信じるな",
-    artist: "ピノキオピー feat. 初音ミク",
+    artist: "ピノキオピー feat. 初音ミク・重音テト",
     genres: ["ボカロ"],
     era: "2020年代",
     diff: 8.9,
@@ -4623,7 +4605,7 @@ export const SONGS = [
     title: "Pretty Little Baby",
     artist: "Connie Francis",
     genres: ["洋楽"],
-    era: "2020年代",
+    era: "1960年代",
     diff: 4.1,
     breakdown: { pitch: 1.7, rhythm: 0.7, breath: 0.7, expression: 1 },
     comment: "1962年の曲がTikTokで大復活、ゆったりした旋律でイージー。",
