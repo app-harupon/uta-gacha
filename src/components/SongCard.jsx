@@ -9,22 +9,14 @@ const AXES = [
   { key: 'expression', label: '表現力', max: 1.5 },
 ]
 
-export default function SongCard({ song, genderKey }) {
+export default function SongCard({ song }) {
   const [open, setOpen] = useState(false)
   const [record, setRecord] = useState(() => loadRecord(song.title, song.artist))
   const [scoreInput, setScoreInput] = useState(record?.score ?? '')
   const [memoInput, setMemoInput] = useState(record?.memo ?? '')
 
-  const score = genderKey === 'male' ? song.diffMale : song.diffFemale
-  const level = scoreToLevel(score)
+  const level = scoreToLevel(song.diff)
   const tag = difficultyTag(level)
-
-  const axisValue = (key) => {
-    if (key === 'pitch') {
-      return genderKey === 'male' ? song.breakdown.pitchMale : song.breakdown.pitchFemale
-    }
-    return song.breakdown[key]
-  }
 
   const handleSave = () => {
     const parsed = scoreInput === '' ? null : Number(scoreInput)
@@ -55,7 +47,7 @@ export default function SongCard({ song, genderKey }) {
         <div className="song-card-detail">
           <div className="breakdown">
             {AXES.map((axis) => {
-              const value = axisValue(axis.key)
+              const value = song.breakdown[axis.key]
               const isOverflow = value > axis.max
               return (
                 <div className="breakdown-row" key={axis.key}>
@@ -66,9 +58,6 @@ export default function SongCard({ song, genderKey }) {
                       style={{ width: `${Math.min(100, (value / axis.max) * 100)}%` }}
                     />
                   </div>
-                  <span className={isOverflow ? 'breakdown-value breakdown-value-overflow' : 'breakdown-value'}>
-                    {value.toFixed(1)}
-                  </span>
                 </div>
               )
             })}

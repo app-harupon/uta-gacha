@@ -1,6 +1,6 @@
 import { SONGS } from '../data/songs'
 
-const allScores = SONGS.flatMap((s) => [s.diffMale, s.diffFemale]).sort((a, b) => a - b)
+const allScores = SONGS.map((s) => s.diff).sort((a, b) => a - b)
 
 // 全曲のスコア(男女どちらも合わせた分布)を10等分(パーセンタイル)し、
 // レベル1〜9それぞれの「この値以下ならこのレベル」という上限スコアを動的に算出する。

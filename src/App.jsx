@@ -21,7 +21,6 @@ function pickRandom(list, count) {
 }
 
 export default function App() {
-  const [genderKey, setGenderKey] = useState('male')
   const [selectedGenres, setSelectedGenres] = useState([])
   const [selectedEras, setSelectedEras] = useState([])
   const [selectedLevels, setSelectedLevels] = useState([])
@@ -32,10 +31,7 @@ export default function App() {
     const filtered = SONGS.filter((song) => {
       if (selectedGenres.length > 0 && !song.genres.some((g) => selectedGenres.includes(g))) return false
       if (selectedEras.length > 0 && !selectedEras.includes(song.era)) return false
-      if (selectedLevels.length > 0) {
-        const score = genderKey === 'male' ? song.diffMale : song.diffFemale
-        if (!selectedLevels.includes(scoreToLevel(score))) return false
-      }
+      if (selectedLevels.length > 0 && !selectedLevels.includes(scoreToLevel(song.diff))) return false
       return true
     })
     setCandidates(pickRandom(filtered, MAX_CANDIDATES))
@@ -48,24 +44,6 @@ export default function App() {
         <h1>うたガチャ</h1>
         <p className="app-subtitle">条件を決めて、次に歌う曲を引こう</p>
       </header>
-
-      <section className="panel">
-        <h2>性別キー</h2>
-        <div className="toggle-group">
-          <button
-            className={genderKey === 'male' ? 'toggle-button active' : 'toggle-button'}
-            onClick={() => setGenderKey('male')}
-          >
-            男性キー
-          </button>
-          <button
-            className={genderKey === 'female' ? 'toggle-button active' : 'toggle-button'}
-            onClick={() => setGenderKey('female')}
-          >
-            女性キー
-          </button>
-        </div>
-      </section>
 
       <section className="panel">
         <h2>ジャンル</h2>
@@ -121,7 +99,7 @@ export default function App() {
           <p className="empty-message">条件に合う曲が見つからなかった。条件を緩めてみよう。</p>
         )}
         {candidates.map((song) => (
-          <SongCard key={`${song.title}__${song.artist}`} song={song} genderKey={genderKey} />
+          <SongCard key={`${song.title}__${song.artist}`} song={song} />
         ))}
       </section>
     </div>
