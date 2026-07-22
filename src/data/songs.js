@@ -3821,4 +3821,14 @@ export const SONGS = [
     breakdown: { pitchMale: 3.8, pitchFemale: 3.6, rhythm: 1.2, breath: 1.3, expression: 1.4 },
     comment: "バンドサウンドに負けない声の張りと安定した音域のコントロールが必要。",
   },
+  {
+    title: "ノンフィクション",
+    artist: "平井堅",
+    genre: "J-POP",
+    era: "2010年代",
+    diffMale: 7.2,
+    diffFemale: 7.4,
+    breakdown: { pitchMale: 3.6, pitchFemale: 3.8, rhythm: 0.8, breath: 1.3, expression: 1.5 },
+    comment: "TBS「小さな巨人」主題歌。生死を歌うドラマチックな歌詞に応える感情表現の深さが求められる。",
+  },
 ]
